@@ -1,12 +1,12 @@
 [
     {
-        "name": "Plan Regular",
+        "name": "Gestiòn Estètica",
         "imageID": 0,
-        "description": "rv3rklnv3v"
+        "description": "Nosotros nos encargamos la vestimenta, maquillaje y cuidado estético de la persona después de su muerte, basada en su edad, personalidad y otros aspectos especificados por la familia"
     },
     {
         "name": "Plan Personalizado",
         "imageID": 0,
-        "description": "rv3rklnv3v"
+        "description": "Elige tu ropa y maquillaje en tu funeral con antelación. Nosotros nos encargamos de cumplir tus requisitos tras tu muerte brindando vestimenta, maquillaje y cuidado estético basado en tus requisitos."
     }
 ]

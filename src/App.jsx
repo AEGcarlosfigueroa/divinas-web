@@ -19,6 +19,9 @@ function App() {
 
       <div style={{alignItems: 'center', width: '100%', height:'auto', textAlign: 'center', position: 'absolute', top: '10%'}}>
 
+        <h1>¿Te has preguntado como quieres vestirte en tu funeral?</h1>
+        <h2>Nosotros te ofrecemos la libertad de elegir como vestirte y maquiullarte en el funeral. Muestra tu personalidad y estilo incluso en tus últimos momentos.</h2>
+
         <h1>NUESTROS SERVICIOS</h1>
         <div style ={{display: 'flex', flexDirection: 'row', height:'auto', width: '100%', overflow: 'scroll', position: 'relative'}}>
            {serviceInfo.map(elem => Service(elem))}
@@ -33,7 +36,7 @@ function App() {
            {memberInfo.map(elem => Member(elem))}
         </div>
 
-        <div style={{height: '20%', width: '100%', backgroundColor: 'gray', position: 'relative', alignItems: 'normal'}}>
+        <div style={{height: '20%', width: '98%', backgroundColor: 'gray', position: 'relative', alignItems: 'normal', padding: '1%'}}>
           <h2 style={{textAlign: 'left', marginLeft: '5%', color: 'black'}}>CONTACTO</h2>
           <div style={{display: 'flex', flexDirection: 'row'}}>
             <img src={mailLogo} style={{height: '5%', resize: 'vertical', width: '4%', alignSelf: 'left', marginLeft: '2%', marginBottom: '2%'}}/>
