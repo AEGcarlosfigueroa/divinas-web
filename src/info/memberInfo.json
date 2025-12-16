@@ -5,13 +5,23 @@
         "description": "rv3rklnv3v"
     },
     {
-        "name": "Carlos Aguilar",
-        "imageID": 0,
+        "name": "Julen Alsonso",
+        "imageID": 1,
         "description": "rv3rklnv3v"
     },
     {
-        "name": "Carlos Aguilar",
-        "imageID": 0,
+        "name": "Lucas De Olmo",
+        "imageID": 2,
+        "description": "rv3rklnv3v"
+    },
+    {
+        "name": "Sergio Catalan",
+        "imageID": 3,
+        "description": "rv3rklnv3v"
+    },
+    {
+        "name": "Karen Escobedo",
+        "imageID": 4,
         "description": "rv3rklnv3v"
     }
 ]
