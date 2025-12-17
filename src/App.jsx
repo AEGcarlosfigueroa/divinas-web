@@ -47,7 +47,7 @@ function App() {
           <h2 style={{textAlign: 'left', marginLeft: '5%', color: 'black'}}>CONTACTO</h2>
           <div style={{display: 'flex', flexDirection: 'row'}}>
             <img src={mailLogo} style={{height: '5%', resize: 'vertical', width: '4%', alignSelf: 'left', marginLeft: '2%', marginBottom: '2%'}}/>
-            <h3 style={{color: 'black', marginLeft: '2%'}}>Divinas@gmail.ws</h3>
+            <h3 style={{color: 'black', marginLeft: '2%'}}>Divinas@gmail.es</h3>
           </div>
           <div style={{display: 'flex', flexDirection: 'row'}}>
             <img src={phoneLogo} style={{height: '5%', resize: 'vertical', width: '4%', alignSelf: 'left', marginLeft: '2%', marginBottom: '2%'}}/>
