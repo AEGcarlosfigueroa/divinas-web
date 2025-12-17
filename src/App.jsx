@@ -35,7 +35,7 @@ function App() {
 
         <h1>ESPACIO PRIVADO</h1>
         <h2>Nuestro espacio online para que puedas personalizar tu vestimenta en cualquier momento, privadamente</h2>
-        <button style={{backgroundColor: 'black'}}>Registrarse o inicial sesión</button>
+        <button style={{backgroundColor: 'black', fontSize: '120%'}}>Registrarse o inicial sesión</button>
 
         <h1>NUESTRO EQUIPO</h1>
         <img src={teamImage} style={{width: '60%', margin: '2%', height: 'auto', resize: 'horizontal'}}/>

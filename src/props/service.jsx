@@ -5,7 +5,7 @@ function Service(serviceInfo)
             <div style={{position: 'relative', margin: '2%', height: '100%', width: '50%', backgroundColor: 'gray', borderRadius: 20, padding: '1%'}}>
                 <h2>{serviceInfo.name}</h2>
                 <p>{serviceInfo.description}</p>
-                <button style={{marginBottom: '2%'}}>CONTRATAR AHORA</button>
+                <button style={{marginBottom: '2%', fontSize: '100%'}}>CONTRATAR AHORA</button>
             </div>
         </>
     )
