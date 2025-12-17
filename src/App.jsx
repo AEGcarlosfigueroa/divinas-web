@@ -7,6 +7,8 @@ import mailLogo from './assets/mail.png'
 import phoneLogo from './assets/phone.png'
 import serviceInfo from './info/serviceInfo.json'
 import homeLogo from "./assets/homelogo.png"
+import video from "./assets/presentacion.mp4"
+import teamImage from "./assets/fotogrupo.png"
 
 function App() {
 
@@ -18,6 +20,10 @@ function App() {
       </div>
 
       <div style={{alignItems: 'center', width: '100%', height:'auto', textAlign: 'center', position: 'absolute', top: '10%'}}>
+
+        <video height={'auto'} width={'70%'} style={{marginTop: '5%'}} controls>
+          <source src={video} type='video/mp4'/>
+        </video>
 
         <h1>¿Te has preguntado como quieres vestirte en tu funeral?</h1>
         <h2>Nosotros te ofrecemos la libertad de elegir como vestirte y maquiullarte en el funeral. Muestra tu personalidad y estilo incluso en tus últimos momentos.</h2>
@@ -32,6 +38,7 @@ function App() {
         <button style={{backgroundColor: 'black'}}>Registrarse o inicial sesión</button>
 
         <h1>NUESTRO EQUIPO</h1>
+        <img src={teamImage} style={{width: '60%', margin: '2%', height: 'auto', resize: 'horizontal'}}/>
         <div style ={{display: 'flex', flexDirection: 'row', height:'auto', width: '100%', overflow: 'scroll', position: 'relative'}}>
            {memberInfo.map(elem => Member(elem))}
         </div>
